@@ -1,0 +1,28 @@
+{
+  "name": "jwtapi",
+  "version": "1.0.0",
+  "description": "JsonWebTokens Node API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MbuguaCaleb/JsonWebTokens-Node-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MbuguaCaleb/JsonWebTokens-Node-API/issues"
+  },
+  "homepage": "https://github.com/MbuguaCaleb/JsonWebTokens-Node-API#readme",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
