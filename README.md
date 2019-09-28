@@ -37,7 +37,7 @@ res.send() gets your response back.
 **Must learn**
 
 ```
-(a)Asynch JS
+(a)Asynch JS and Promises ...then.
 
 (b) try catch exception block.
 ```
