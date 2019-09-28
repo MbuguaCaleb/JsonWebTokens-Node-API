@@ -11,7 +11,7 @@ dotenv.config();
 
 //Connect to DB
 mongoose.connect(
-  'process.env.DB_CONNECT',
+  process.env.DB_CONNECT,
   { useNewUrlParser: true, useUnifiedTopology: true },
   () => console.log('connected to db!')
 );
@@ -21,6 +21,5 @@ app.use(express.json());
 
 //Route middlware
 app.use('/api/user', authRoute);
-
 
 app.listen(3000, () => console.log('Server up and running'));
