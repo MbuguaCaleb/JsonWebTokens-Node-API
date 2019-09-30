@@ -5,6 +5,7 @@ const dotenv = require('dotenv');
 
 //Import Routes
 const authRoute = require('./routes/auth');
+const postRoute = require('./routes/posts');
 
 //init env
 dotenv.config();
@@ -21,5 +22,6 @@ app.use(express.json());
 
 //Route middlware
 app.use('/api/user', authRoute);
+app.use('/api/posts', postRoute);
 
 app.listen(3000, () => console.log('Server up and running'));

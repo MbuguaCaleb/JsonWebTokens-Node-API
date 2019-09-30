@@ -17,10 +17,9 @@ JsonWebTokens Node API
 
 (e)npm install @hapi/joi -Version 15 is  much more compactible at the moment.
 
-(f)Hashing Passwords -npm install bcryptjs
+(f)Hashing Passwords -npm install bcryptjs.
 
-
-
+(g)Adding a token to protect the routes. npm install jsonwebtoken.
 
 
 
@@ -43,10 +42,32 @@ res.send() gets your response back.
 
 ```
 
+```
+
+You have to call next after a Middleware and then the middleware can be called to a function.
+
+
+```
+
 **Must learn**
 
 ```
 (a)Asynch JS and Promises ...then.
 
 (b) try catch exception block.
+```
+
+```
+Notes by Mbugua Caleb
+
+```
+
+```
+Thankful to God for the progess
+
+```
+
+```
+Tutor -DEV ED
+
 ```
