@@ -13,9 +13,12 @@ JsonWebTokens Node API
 
 (c)npm install express
 
-(d)Killing all nodeJS Processes.
+(d)Killing all nodeJS Processes.(killall node)
 
 (e)npm install @hapi/joi -Version 15 is  much more compactible at the moment.
+
+(f)Hashing Passwords -npm install bcryptjs
+
 
 
 
