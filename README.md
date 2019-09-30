@@ -15,6 +15,12 @@ JsonWebTokens Node API
 
 (d)Killing all nodeJS Processes.
 
+(e)npm install @hapi/joi -Version 15 is  much more compactible at the moment.
+
+
+
+
+
 ```
 
 **Tips**
